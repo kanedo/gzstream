@@ -32,4 +32,12 @@ To remove the library just use the make file and type
 sudo make uninstall
 ```
 
+usage
+-----
 
+To use the library with `Make` make sure you add `-lgzstream` and `-lz` to your `LDFLAGS`.
+
+FAQ
+---
+I get `undefined reference to gzstream` error:  
+make sure you add the LDFlags at the end
