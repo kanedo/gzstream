@@ -59,6 +59,11 @@ test:    test_gzip test_gunzip
 	rm gz.tmp.gz gz.tmp
 	# *** O.K. Test finished successfully. ***
 
+install: libgzstream.a test
+	cp libgzstream.a /usr/lib
+	cp gzstream.h /usr/include
+	chmod o+r /usr/include/gzstream.h
+
 gzstream.o : gzstream.C gzstream.h
 	${CXX} ${CPPFLAGS} -c -o gzstream.o gzstream.C
 
