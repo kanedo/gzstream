@@ -89,7 +89,7 @@ clean :
 cleanall :
 	rm *.o libgzstream.a test_gzip test_gunzip
 
-uninstall
+uninstall:
 	rm /usr/include/gzstream.h /usr/lib/libgzstream.a
 
 # ============================================================================
