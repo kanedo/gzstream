@@ -1,6 +1,8 @@
 gzstream
 ========
 
+This is only a mirror of the original gzstream-library developed by The Computational Geometry Group at UNC Chapel Hill. For more information about this lib, see the [cs.unc.ed homepage](http://www.cs.unc.edu/Research/compgeom/gzstream/)
+
 installation
 ------------
 
